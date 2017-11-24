@@ -1,0 +1,16 @@
+name: test_webview
+states:
+    text_buttons_state:
+        component: meya.text_buttons
+        properties:
+            text: Testing webviews
+            output: button_click
+            buttons:
+                - text: "This is a webview"
+                  type: link
+                  url: "https://smooch.io/"
+                  fallback_url: "https://smooch.io/"
+                  webview_height_ratio: "tall"
+                - text: "This is a link"
+                  type: link
+                  url: "https://smooch.io/"

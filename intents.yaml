@@ -2,3 +2,7 @@
     intent: meya.keyword
     settings:
         keyword: test
+-   flow: webview
+    intent: meya.keyword
+    settings:
+        keyword: web
