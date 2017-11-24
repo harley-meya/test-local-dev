@@ -1,0 +1,4 @@
+-   flow: welcome
+    intent: meya.keyword
+    settings:
+        keyword: test

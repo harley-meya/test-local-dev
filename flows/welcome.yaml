@@ -1,0 +1,6 @@
+name: welcome
+states:
+    start:
+        component: meya.text
+        properties:
+            text: It works!
