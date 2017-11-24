@@ -2,7 +2,7 @@
     intent: meya.keyword
     settings:
         keyword: test
--   flow: webview
+-   flow: test_webview
     intent: meya.keyword
     settings:
         keyword: web
