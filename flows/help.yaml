@@ -1,6 +1,6 @@
 name: help
 states:
     start:
-		    component: meya.text
-		    properties:
-			      text: Escaped to the help flow!
+        component: meya.text
+        properties:
+            text: Escaped to the help flow!
