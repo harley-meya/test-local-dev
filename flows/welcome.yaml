@@ -3,4 +3,14 @@ states:
     start:
         component: meya.text
         properties:
-            text: It works!
+            text: Start of welcome flow.
+    second:
+        component: meya.input_string
+        properties:
+            text: Some input please?
+            output: my_var
+            scope: flow
+    third:
+        component: meya.text
+        properties:
+            text: The third state.
