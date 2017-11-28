@@ -3,4 +3,4 @@ states:
     start:
 		    component: meya.text
 		    properties:
-			      text: Escaped to the 'help' flow!
+			      text: Escaped to the help flow!
